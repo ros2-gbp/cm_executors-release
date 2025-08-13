@@ -1,0 +1,12 @@
+Source: ros-jazzy-cm-executors
+Section: misc
+Priority: optional
+Maintainer: Janosch Machowinski <j.machowinski@Cellumation.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-gen-version-h, ros-jazzy-ament-cmake-gmock <!nocheck>, ros-jazzy-ament-cmake-google-benchmark <!nocheck>, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-cmake-ros, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-mimick-vendor <!nocheck>, ros-jazzy-performance-test-fixture <!nocheck>, ros-jazzy-rclcpp, ros-jazzy-rmw <!nocheck>, ros-jazzy-rmw-implementation-cmake <!nocheck>, ros-jazzy-rosidl-default-generators <!nocheck>, ros-jazzy-test-msgs <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-cm-executors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rclcpp, ros-jazzy-ros-workspace
+Description: Cellumation executor package .
